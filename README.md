@@ -13,3 +13,5 @@ Processing and analysis happens on a set of data that have already been stored o
 | ------------- | ------------- | ------------- |
 | Licensing | Open source library | Commercial |
 | Hosting | Primarily on prem | Only on AWS cloud |
+| Cost | Kafka requires implementation and maintenance costs | Supports pay-as-you-go model, costs may vary |
+| Scalability | Kafka’s scalability is determined by brokers and partitions. A standard configuration of Kafka can reach a throughput of 30k messages per second. Kafka requires manual configuration for cross-replication. | Kinesis scalability is determined by shards. A shard provides a write capacity of 1MB, or 1,000 records per second, and a read capacity of 2MB, or 5 transactions per second.|
