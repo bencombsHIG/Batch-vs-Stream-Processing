@@ -12,5 +12,4 @@ Processing and analysis happens on a set of data that have already been stored o
 | Feature | Kafka      | Kinesis    |
 | ------------- | ------------- | ------------- |
 | Licensing | Open source library | Commercial |
-| ------------- | ------------- | ------------- |
 | Hosting | Primarily on prem | Only on AWS cloud |
